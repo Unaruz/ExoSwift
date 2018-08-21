@@ -11,4 +11,5 @@ func selectionnerNombresPositifs(tab: [Int]) -> [Int] {
 }
 
 var tab: [Int] = selectionnerNombresPositifs(tab: listeNombres)
+print("Les éléments négatifs sont:")
 print(tab)
